@@ -9,6 +9,7 @@ from langgraph.prebuilt import create_react_agent
 
 from config import MODEL_NAME, PROXY_CLIENT_NAME
 from mcp import ClientSession, StdioServerParameters
+from mcp.client.stdio import stdio_client
 
 load_dotenv()
 
